@@ -29,6 +29,10 @@ class ViewController: UIViewController {
     minute.delegate = self
     second.delegate = self
     
+    hour.flapSpacing = 6
+    minute.flapSpacing = 6
+    second.flapSpacing = 6
+    
     // Do any additional setup after loading the view.
   }
   
@@ -36,7 +40,19 @@ class ViewController: UIViewController {
     super.viewDidAppear(animated)
     hour.setText("11", animated: false)
     minute.setText("22", animated: false)
-    second.setText("33", animated: false)
+    second.setText("39", animated: false)
+    
+    UIView.animate(withDuration: 1) {
+      self.second.setText("40", animated: true)
+    }
+    
+    UIView.animate(withDuration: 1) {
+      self.second.setText("41", animated: true)
+    }
+    
+    UIView.animate(withDuration: 1) {
+      self.second.setText("42", animated: true)
+    }
   }
 }
 
@@ -45,17 +61,27 @@ extension ViewController: SplitflapDataSource {
   func numberOfFlapsInSplitflap(_ splitflap: Splitflap) -> Int {
     return 2
   }
+  
+  func tokensInSplitflap(_ splitflap: Splitflap) -> [String] {
+    return SplitflapTokens.Numeric
+  }
 }
 
 extension ViewController: SplitflapDelegate {
   // Configure the appearance for each flaps
+  
+  func splitflap(_ splitflap: Splitflap, rotationDurationForFlapAtIndex index: Int) -> Double {
+    return 1
+  }
+  
   func splitflap(_ splitflap: Splitflap, builderForFlapAtIndex index: Int) -> FlapViewBuilder {
     return FlapViewBuilder { builder in
-      builder.backgroundColor = UIColor(red: 0.11, green: 0.11, blue: 0.11, alpha: 1)
+      builder.backgroundColor = UIColor(red: 0.09, green: 0.09, blue: 0.09, alpha: 1)
       builder.cornerRadius    = 8
-      builder.font            = .systemFont(ofSize: splitflap.frame.height * 1.4, weight: .medium)
+//      builder.font            = .systemFont(ofSize: splitflap.frame.height * 1.5, weight: .bold)
+      builder.font = UIFont(name: "HelveticaNeue-Bold", size: splitflap.frame.height * 1.3)!
       builder.textAlignment   = .center
-      builder.textColor       = UIColor(red: 1, green: 1, blue: 1, alpha: 0.8)
+      builder.textColor       = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
       builder.lineColor       = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
     }
   }

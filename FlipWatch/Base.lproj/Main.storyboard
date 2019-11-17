@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <device id="retina3_5" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,11 +12,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FlipWatch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OnT-ba-72q" customClass="Splitflap" customModule="Splitflap">
-                                <rect key="frame" x="32" y="40" width="256" height="121"/>
+                                <rect key="frame" x="20" y="84.5" width="151.5" height="151.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OnT-ba-72q" secondAttribute="height" multiplier="1:1" id="l5J-NI-Okc"/>
@@ -33,7 +33,7 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKu-0f-MtW">
-                                <rect key="frame" x="0.0" y="430" width="320" height="50"/>
+                                <rect key="frame" x="80" y="270" width="320" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="CFp-j3-xZT"/>
@@ -63,11 +63,11 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kvN-K6-75d" customClass="Splitflap" customModule="Splitflap">
-                                <rect key="frame" x="32" y="185" width="256" height="120.5"/>
+                                <rect key="frame" x="187.5" y="84.5" width="151.5" height="151.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDC-dS-yaY" customClass="Splitflap" customModule="Splitflap">
-                                <rect key="frame" x="175.5" y="329.5" width="112.5" height="80.5"/>
+                                <rect key="frame" x="359" y="168.5" width="101" height="67.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ZDC-dS-yaY" secondAttribute="height" multiplier="1.4:1" id="56h-V0-J7s"/>
@@ -105,21 +105,21 @@
                             <constraint firstItem="OnT-ba-72q" firstAttribute="height" secondItem="kvN-K6-75d" secondAttribute="height" id="790-Y7-Lpa"/>
                             <constraint firstAttribute="bottom" secondItem="NKu-0f-MtW" secondAttribute="bottom" id="7U7-lD-KdD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZDC-dS-yaY" secondAttribute="trailing" constant="32" id="8rH-xF-QpF">
-                                <variation key="heightClass=compact" constant="28"/>
+                                <variation key="heightClass=compact" constant="20"/>
                             </constraint>
                             <constraint firstItem="OnT-ba-72q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="90O-V9-rNM"/>
                             <constraint firstItem="OnT-ba-72q" firstAttribute="width" secondItem="kvN-K6-75d" secondAttribute="width" id="AQo-Qe-pI2"/>
                             <constraint firstItem="ZDC-dS-yaY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="DlI-vl-Weo">
                                 <variation key="heightClass=regular" constant="32"/>
                             </constraint>
-                            <constraint firstItem="ZDC-dS-yaY" firstAttribute="height" secondItem="OnT-ba-72q" secondAttribute="height" multiplier="1:1.5" id="HaA-6v-D84"/>
+                            <constraint firstItem="ZDC-dS-yaY" firstAttribute="height" secondItem="OnT-ba-72q" secondAttribute="height" multiplier="1:2" id="HaA-6v-D84"/>
                             <constraint firstItem="ZDC-dS-yaY" firstAttribute="width" secondItem="OnT-ba-72q" secondAttribute="width" multiplier="1:2" id="LOp-fb-KTr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZDC-dS-yaY" secondAttribute="trailing" constant="24" id="NZk-UM-2h8">
-                                <variation key="heightClass=regular" constant="32"/>
+                                <variation key="heightClass=regular" constant="40"/>
                             </constraint>
                             <constraint firstItem="NKu-0f-MtW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nej-bx-COR"/>
                             <constraint firstItem="ZDC-dS-yaY" firstAttribute="leading" secondItem="kvN-K6-75d" secondAttribute="trailing" constant="32" id="P2y-fw-RWo">
-                                <variation key="heightClass=compact" constant="24"/>
+                                <variation key="heightClass=compact" constant="20"/>
                             </constraint>
                             <constraint firstItem="OnT-ba-72q" firstAttribute="height" secondItem="kvN-K6-75d" secondAttribute="height" id="Qvw-LK-F4w"/>
                             <constraint firstItem="OnT-ba-72q" firstAttribute="height" secondItem="kvN-K6-75d" secondAttribute="height" id="Roe-lL-bRj"/>
@@ -136,22 +136,30 @@
                             <constraint firstItem="kvN-K6-75d" firstAttribute="centerY" secondItem="OnT-ba-72q" secondAttribute="centerY" id="dny-5n-tZk"/>
                             <constraint firstItem="ZDC-dS-yaY" firstAttribute="bottom" secondItem="OnT-ba-72q" secondAttribute="bottom" id="h8R-wp-sJU"/>
                             <constraint firstItem="OnT-ba-72q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="iYj-ZD-z54">
-                                <variation key="heightClass=compact" constant="28"/>
+                                <variation key="heightClass=compact" constant="20"/>
                             </constraint>
                             <constraint firstItem="OnT-ba-72q" firstAttribute="height" secondItem="ZDC-dS-yaY" secondAttribute="height" multiplier="2:1" id="iyU-vf-J31"/>
-                            <constraint firstItem="kvN-K6-75d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="jYW-44-G2D"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kvN-K6-75d" secondAttribute="trailing" constant="32" id="l9I-1S-ZXg"/>
+                            <constraint firstItem="kvN-K6-75d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="jYW-44-G2D">
+                                <variation key="heightClass=regular" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kvN-K6-75d" secondAttribute="trailing" constant="32" id="l9I-1S-ZXg">
+                                <variation key="heightClass=regular" constant="40"/>
+                            </constraint>
                             <constraint firstItem="ZDC-dS-yaY" firstAttribute="bottom" secondItem="OnT-ba-72q" secondAttribute="bottom" id="mAD-Ob-fIh"/>
                             <constraint firstItem="ZDC-dS-yaY" firstAttribute="centerY" secondItem="OnT-ba-72q" secondAttribute="centerY" id="q6o-ri-By0"/>
                             <constraint firstItem="kvN-K6-75d" firstAttribute="centerY" secondItem="OnT-ba-72q" secondAttribute="centerY" id="qEU-ZR-7fA"/>
-                            <constraint firstItem="OnT-ba-72q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="r6c-eR-eMR"/>
+                            <constraint firstItem="OnT-ba-72q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="r6c-eR-eMR">
+                                <variation key="heightClass=regular" constant="40"/>
+                            </constraint>
                             <constraint firstItem="kvN-K6-75d" firstAttribute="centerX" secondItem="OnT-ba-72q" secondAttribute="centerX" id="rdf-Q6-FPs"/>
                             <constraint firstItem="ZDC-dS-yaY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tpX-2v-WFL">
                                 <variation key="heightClass=compact" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OnT-ba-72q" secondAttribute="trailing" constant="32" id="vzE-zm-Hyp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OnT-ba-72q" secondAttribute="trailing" constant="32" id="vzE-zm-Hyp">
+                                <variation key="heightClass=regular" constant="40"/>
+                            </constraint>
                             <constraint firstItem="kvN-K6-75d" firstAttribute="leading" secondItem="OnT-ba-72q" secondAttribute="trailing" constant="32" id="y6W-rX-58o">
-                                <variation key="heightClass=compact" constant="24"/>
+                                <variation key="heightClass=compact" constant="16"/>
                             </constraint>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

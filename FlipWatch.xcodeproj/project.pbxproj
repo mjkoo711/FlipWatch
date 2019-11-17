@@ -101,7 +101,6 @@
 				71D0609F096001CBD3418D64 /* Pods-FlipWatchUITests.debug.xcconfig */,
 				E2092EE13106C6B6ADEE6837 /* Pods-FlipWatchUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -572,8 +571,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2X694JYRKZ;
+				DEVELOPMENT_TEAM = TYXYQ3XS3W;
 				INFOPLIST_FILE = FlipWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -591,8 +591,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2X694JYRKZ;
+				DEVELOPMENT_TEAM = TYXYQ3XS3W;
 				INFOPLIST_FILE = FlipWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
