@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DF610629D87FB19A7057CE2 /* Pods_FlipWatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF9175BDF4AF9A5D4682500 /* Pods_FlipWatchUITests.framework */; };
 		80E72737238192F900B64F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E72736238192F900B64F75 /* AppDelegate.swift */; };
 		80E72739238192F900B64F75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E72738238192F900B64F75 /* SceneDelegate.swift */; };
 		80E7273B238192F900B64F75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E7273A238192F900B64F75 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		80E727432381930000B64F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E727412381930000B64F75 /* LaunchScreen.storyboard */; };
 		80E7274E2381930000B64F75 /* FlipWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E7274D2381930000B64F75 /* FlipWatchTests.swift */; };
 		80E727592381930000B64F75 /* FlipWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E727582381930000B64F75 /* FlipWatchUITests.swift */; };
+		A3474FE1726C434BC15DC29F /* Pods_FlipWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C0D122FA2E3D426BE4C1C0 /* Pods_FlipWatchTests.framework */; };
+		A4A6EE05CE7967FA012EED7E /* Pods_FlipWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28465DC6C2353571B7E09560 /* Pods_FlipWatch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D9E2102646384A422235529 /* Pods-FlipWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipWatch.release.xcconfig"; path = "Target Support Files/Pods-FlipWatch/Pods-FlipWatch.release.xcconfig"; sourceTree = "<group>"; };
+		28465DC6C2353571B7E09560 /* Pods_FlipWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFBBCC53ADF73E6EF245601 /* Pods-FlipWatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipWatchTests.debug.xcconfig"; path = "Target Support Files/Pods-FlipWatchTests/Pods-FlipWatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51C0D122FA2E3D426BE4C1C0 /* Pods_FlipWatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipWatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF9175BDF4AF9A5D4682500 /* Pods_FlipWatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipWatchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D0609F096001CBD3418D64 /* Pods-FlipWatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipWatchUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlipWatchUITests/Pods-FlipWatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		80E72733238192F900B64F75 /* FlipWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E72736238192F900B64F75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80E72738238192F900B64F75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		80E727542381930000B64F75 /* FlipWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E727582381930000B64F75 /* FlipWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipWatchUITests.swift; sourceTree = "<group>"; };
 		80E7275A2381930000B64F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C182D9040322628862AFADD6 /* Pods-FlipWatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipWatchTests.release.xcconfig"; path = "Target Support Files/Pods-FlipWatchTests/Pods-FlipWatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		D74E13503E6215EF6B35CABB /* Pods-FlipWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipWatch.debug.xcconfig"; path = "Target Support Files/Pods-FlipWatch/Pods-FlipWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		E2092EE13106C6B6ADEE6837 /* Pods-FlipWatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipWatchUITests.release.xcconfig"; path = "Target Support Files/Pods-FlipWatchUITests/Pods-FlipWatchUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A6EE05CE7967FA012EED7E /* Pods_FlipWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3474FE1726C434BC15DC29F /* Pods_FlipWatchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF610629D87FB19A7057CE2 /* Pods_FlipWatchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14EF6F2491D6824F77F1AF93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D74E13503E6215EF6B35CABB /* Pods-FlipWatch.debug.xcconfig */,
+				1D9E2102646384A422235529 /* Pods-FlipWatch.release.xcconfig */,
+				2DFBBCC53ADF73E6EF245601 /* Pods-FlipWatchTests.debug.xcconfig */,
+				C182D9040322628862AFADD6 /* Pods-FlipWatchTests.release.xcconfig */,
+				71D0609F096001CBD3418D64 /* Pods-FlipWatchUITests.debug.xcconfig */,
+				E2092EE13106C6B6ADEE6837 /* Pods-FlipWatchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		80E7272A238192F900B64F75 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				80E7274C2381930000B64F75 /* FlipWatchTests */,
 				80E727572381930000B64F75 /* FlipWatchUITests */,
 				80E72734238192F900B64F75 /* Products */,
+				14EF6F2491D6824F77F1AF93 /* Pods */,
+				FAC364669150161CE5675DE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +159,16 @@
 			path = FlipWatchUITests;
 			sourceTree = "<group>";
 		};
+		FAC364669150161CE5675DE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28465DC6C2353571B7E09560 /* Pods_FlipWatch.framework */,
+				51C0D122FA2E3D426BE4C1C0 /* Pods_FlipWatchTests.framework */,
+				6CF9175BDF4AF9A5D4682500 /* Pods_FlipWatchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80E7275D2381930000B64F75 /* Build configuration list for PBXNativeTarget "FlipWatch" */;
 			buildPhases = (
+				A1B1D37CE1A3B3D55905AAC3 /* [CP] Check Pods Manifest.lock */,
 				80E7272F238192F900B64F75 /* Sources */,
 				80E72730238192F900B64F75 /* Frameworks */,
 				80E72731238192F900B64F75 /* Resources */,
+				3DDFCFD3E452B04073B8AD6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80E727602381930000B64F75 /* Build configuration list for PBXNativeTarget "FlipWatchTests" */;
 			buildPhases = (
+				2D0A253ED06D7B75A8B3BDF7 /* [CP] Check Pods Manifest.lock */,
 				80E727452381930000B64F75 /* Sources */,
 				80E727462381930000B64F75 /* Frameworks */,
 				80E727472381930000B64F75 /* Resources */,
@@ -170,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80E727632381930000B64F75 /* Build configuration list for PBXNativeTarget "FlipWatchUITests" */;
 			buildPhases = (
+				3039BECD51BDDDD3F083BADC /* [CP] Check Pods Manifest.lock */,
 				80E727502381930000B64F75 /* Sources */,
 				80E727512381930000B64F75 /* Frameworks */,
 				80E727522381930000B64F75 /* Resources */,
@@ -253,6 +298,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D0A253ED06D7B75A8B3BDF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipWatchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3039BECD51BDDDD3F083BADC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipWatchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DDFCFD3E452B04073B8AD6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlipWatch/Pods-FlipWatch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Splitflap/Splitflap.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Splitflap.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlipWatch/Pods-FlipWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B1D37CE1A3B3D55905AAC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80E7272F238192F900B64F75 /* Sources */ = {
@@ -432,6 +568,7 @@
 		};
 		80E7275E2381930000B64F75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D74E13503E6215EF6B35CABB /* Pods-FlipWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +587,7 @@
 		};
 		80E7275F2381930000B64F75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9E2102646384A422235529 /* Pods-FlipWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +606,7 @@
 		};
 		80E727612381930000B64F75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFBBCC53ADF73E6EF245601 /* Pods-FlipWatchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +629,7 @@
 		};
 		80E727622381930000B64F75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C182D9040322628862AFADD6 /* Pods-FlipWatchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +652,7 @@
 		};
 		80E727642381930000B64F75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D0609F096001CBD3418D64 /* Pods-FlipWatchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +673,7 @@
 		};
 		80E727652381930000B64F75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2092EE13106C6B6ADEE6837 /* Pods-FlipWatchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
