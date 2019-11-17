@@ -24,6 +24,11 @@ class ViewController: UIViewController {
     hour.datasource = self
     minute.datasource = self
     second.datasource = self
+    
+    hour.delegate = self
+    minute.delegate = self
+    second.delegate = self
+    
     // Do any additional setup after loading the view.
   }
   
@@ -39,5 +44,19 @@ extension ViewController: SplitflapDataSource {
   // Defines the number of flaps that will be used to display the text
   func numberOfFlapsInSplitflap(_ splitflap: Splitflap) -> Int {
     return 2
+  }
+}
+
+extension ViewController: SplitflapDelegate {
+  // Configure the appearance for each flaps
+  func splitflap(_ splitflap: Splitflap, builderForFlapAtIndex index: Int) -> FlapViewBuilder {
+    return FlapViewBuilder { builder in
+      builder.backgroundColor = UIColor(red: 0.11, green: 0.11, blue: 0.11, alpha: 1)
+      builder.cornerRadius    = 8
+      builder.font            = .systemFont(ofSize: splitflap.frame.height * 1.4, weight: .medium)
+      builder.textAlignment   = .center
+      builder.textColor       = UIColor(red: 1, green: 1, blue: 1, alpha: 0.8)
+      builder.lineColor       = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
+    }
   }
 }
