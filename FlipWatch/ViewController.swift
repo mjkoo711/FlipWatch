@@ -59,11 +59,11 @@ class ViewController: UIViewController {
 extension ViewController: SplitflapDataSource {
   // Defines the number of flaps that will be used to display the text
   func numberOfFlapsInSplitflap(_ splitflap: Splitflap) -> Int {
-    return 2
+    return 1
   }
   
   func tokensInSplitflap(_ splitflap: Splitflap) -> [String] {
-    return SplitflapTokens.Numeric
+    return SplitflapTokens.MinuteAndSecond
   }
 }
 
@@ -79,7 +79,7 @@ extension ViewController: SplitflapDelegate {
       builder.backgroundColor = UIColor(red: 0.09, green: 0.09, blue: 0.09, alpha: 1)
       builder.cornerRadius    = 8
 //      builder.font            = .systemFont(ofSize: splitflap.frame.height * 1.5, weight: .bold)
-      builder.font = UIFont(name: "HelveticaNeue-Bold", size: splitflap.frame.height * 1.3)!
+      builder.font = UIFont(name: "HelveticaNeue-Bold", size: splitflap.frame.height * 1.4)!
       builder.textAlignment   = .center
       builder.textColor       = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
       builder.lineColor       = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
